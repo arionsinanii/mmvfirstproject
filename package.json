@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.16"
+  },
+  "name": "generatepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --build",
+  "watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
